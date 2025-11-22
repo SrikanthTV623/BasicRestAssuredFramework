@@ -13,4 +13,4 @@ Feature: Restful API Functionality
     When user wants to call endpoint "/objects/@id"
     When user performs "GET" call
     Then verify status code is 200
-#    Then verify that object details sent in request matches the GET Call response
+    Then verify that object details sent in request matches the GET Call response
