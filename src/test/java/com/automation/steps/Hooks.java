@@ -10,6 +10,6 @@ public class Hooks {
     @Before
     public void setUp(){
         ConfigReader.initConfig();
-        //RestAssured.baseURI = "https://restful-booker.herokuapp.com";
+//        RestAssured.baseURI = "https://restful-booker.herokuapp.com";
     }
 }
